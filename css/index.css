@@ -3,13 +3,12 @@
     height: 50px;
 }
 
-.address {
-    background-color: #1A2930;
-    color: whitesmoke;
+.navbar-image-sm {
+    height: 200px;
 }
 
 .navbar-custom {
-    background-color: #c5c1c0;
+    background-color: #1A2930;
 }
 
 .slideshow {
@@ -20,9 +19,103 @@
     height: 20vh;
 }
 
-.approach {
+.custom-caption {
+    background-color: #1A2930;
+    color: white;
+    border-radius: 20px;
+}
+
+.address {
     font-family: Roboto;
-    border-radius: 8px;
+    background-color: #1A2930;
+    color: whitesmoke;
+    margin-bottom: 1%;
+}
+
+.feature-img {
+    height: 60%;
+    width: 30%;
+    align-self: center;
+    margin: 1%;
+    background-color: white;
+}
+
+.feature-heading {
+    font-size: 25px;
+}
+
+.course-cardsholder {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    border-width: 1px;
+    height: 70%;
+    height: 400px;
+}
+
+.card-img {
+    height: 100px;
+    width: 150px;
+    align-self: center;
+    margin: 1%;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
     color: #1A2930;
-    padding: 5%;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #1A2930;
+    font-size: 35px;
+}
+
+.footer-section {
+    background-color: #1A2930;
+}
+
+.footer-section-mail-id {
+    color: #b2bbca;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.card-heading {
+    color: #1A2930;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.card-para {
+    color: #1A2930;
+    font-family: Roboto;
+    font-size: 15px;
 }
