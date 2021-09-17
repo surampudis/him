@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 .iib-bg {
     background-image: linear-gradient(to left, #061A28, #54ABED);
-    height: 30vh;
+    height: 20vh;
 }
 
 .course-heading {
@@ -14,13 +14,14 @@
     font-family: roboto;
     font-size: 28px;
     color: #061A28;
+    font-weight: bold;
 }
 
 .course-para {
     font-family: roboto;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
-    width: 45%;
+    width: 50%;
 }
 
 .course-desc-title {
@@ -32,7 +33,7 @@
 
 .course-desc-para {
     font-family: roboto;
-    font-size: 20px;
+    font-size: 18px;
     color: #061A28;
 }
 
@@ -47,4 +48,17 @@
     font-family: roboto;
     font-size: 18px;
     color: #061A28;
+}
+
+.custom-btn {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+#contentlist {
+    padding: 10px 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
 }
