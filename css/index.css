@@ -3,6 +3,10 @@
     height: 150px;
 }
 
+.navbar-image-lg {
+    height: 80px;
+}
+
 .navbar-custom {
     background-color: #061A28;
 }
@@ -21,13 +25,17 @@
 }
 
 .caption-heading {
+    text-align: center;
     color: #54ABED;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .address {
     font-family: Roboto;
-    background-color: #1A2930;
-    color: white;
+    background-color: #061A28;
+    color: #FDFFFC;
 }
 
 .feature-img {
@@ -35,7 +43,7 @@
     width: 30%;
     align-self: center;
     margin: 1%;
-    background-color: white;
+    background-color: #FDFFFC;
 }
 
 .feature-heading {
@@ -60,12 +68,12 @@
 }
 
 .follow-us-section {
-    background-color: white;
+    background-color: #FDFFFC;
 }
 
 .follow-us-section-heading {
     text-align: center;
-    color: #1A2930;
+    color: #54ABED;
     font-family: "Roboto";
     font-size: 28px;
     font-weight: 700;
@@ -84,12 +92,12 @@
 }
 
 .icon {
-    color: #1A2930;
+    color: #061A28;
     font-size: 35px;
 }
 
 .footer-section {
-    background-color: #1A2930;
+    background-color: #061A28;
 }
 
 .footer-section-mail-id {
@@ -107,13 +115,13 @@
 }
 
 .card-heading {
-    color: #1A2930;
+    color: #061A28;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
 }
 
 .card-para {
-    color: #1A2930;
+    color: #061A28;
     font-family: Roboto;
     font-size: 15px;
 }
