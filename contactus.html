@@ -8,8 +8,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
     <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
-
+    <script src="js/course.js"></script>
+    <script src="js/smtp.js"></script>
 </head>
 
 <body class="page-size-control">
@@ -37,7 +39,7 @@
                             <a class="nav-link text-white" href="index.html#featuredcourses">Services</a>
                             <a class="nav-link text-white" href="contactus.html">Contact us</a>
                             <a class="nav-link text-white" href="index.html#keyFeatures">Why us?</a>
-                            <a class="nav-link text-white" href="#">Register/Sign in</a>
+                            <a class="nav-link text-white d-none" href="#">Register/Sign in</a>
                         </div>
                     </div>
                 </nav>
@@ -49,46 +51,51 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <img class="w-100" src="img/sliders/contactus.jpg">
+                <img class="w-100" src="img/sliders/contactus1.jpg">
             </div>
 
         </div>
     </div>
     <!--Body-->
-    <div class=" container-fluid p-3 m-3 ">
+    <div class="container-fluid ">
         <div class="row ">
-            <div class="col-12 text-center">
-                <div class="d-flex flex-row justify-content-center">
-                    <div class="m-1">
-                        <p>FirstName</p>
-                    </div>
-                    <div>
-                        <input type=" text ">
-                    </div>
+            <div class="col-12">
+                <form method="POST">
+                    <div class="contact-section p-3 text-center">
+                        <div class=" d-flex flex-row justify-content-center">
+                            <div class="fieldname">
+                                <p>FirstName</p>
+                            </div>
+                            <div>
+                                <input type=" text " id="fname">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="fieldname">
+                                <p>LastName</p>
+                            </div>
+                            <div>
+                                <input type=" text " id="lname">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row justify-content-center">
+                            <div class="fieldname">
+                                <p>Query </p>
+                            </div>
+                            <div>
+                                <textarea rows="5" cols="50" id="subject"></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-info custom-btn" onclick="contactButton(); return false">Submit</button>
+                            <button class="btn btn-danger custom-btn" onclick="window.location=index.html">Cancel</button>
+                        </div>
+                </form>
                 </div>
-                <div class="d-flex flex-row justify-content-center">
-                    <div class="m-1">
-                        <p>LastName</p>
-                    </div>
-                    <div>
-                        <input type=" text ">
-                    </div>
-                </div>
-                <div class="d-flex flex-row justify-content-center">
-                    <div class="m-1">
-                        <p>Query </p>
-                    </div>
-                    <div>
-                        <textarea rows="5" cols="50"></textarea>
-                    </div>
-                </div>
-                <div>
-                    <button class="btn btn-primary ">Submit</button>
-                </div>
-
             </div>
         </div>
     </div>
+
     <!--Body-->
     <!--Footer-->
     <div class="footer-section pt-5 pb-5 ">
