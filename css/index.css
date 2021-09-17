@@ -58,8 +58,7 @@
     border-radius: 20px;
     text-align: center;
     border-width: 1px;
-    height: 70%;
-    height: 400px;
+    height: 100%;
 }
 
 .card-img {
@@ -126,10 +125,15 @@
     color: #061A28;
     font-family: Roboto;
     font-size: 15px;
+    padding: 5px;
 }
 
 .about-para {
     color: #061A28;
     font-family: Roboto;
     font-size: 20px;
+}
+
+.learnmore {
+    padding: 10px;
 }
