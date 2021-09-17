@@ -40,7 +40,7 @@
 
 .feature-img {
     height: 60%;
-    width: 30%;
+    width: 60%;
     align-self: center;
     margin: 1%;
     background-color: #FDFFFC;
@@ -48,6 +48,7 @@
 
 .feature-heading {
     font-size: 25px;
+    font-weight: bold;
     color: #061A28;
 }
 
