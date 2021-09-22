@@ -16,20 +16,30 @@ function benefitlist() {
 
 function contactButton() {
 
-    var fname = document.getElementById("fname").value;
-    var lname = document.getElementById("lname").value;
-    var subject = document.getElementById("subject").value;
-    Email.send({
-        Host: "smtp.gmail.com",
-        Username: "hireintomnc@gmail.com",
-        Password: "hireinto@123",
-        To: 'hrconnect@himsoftware.com',
-        From: "hireintomnc@gmail.com",
-        Subject: fname + " " + lname + " sent a new message from website",
-        Body: subject,
-    }).then(
-        message => alert("mail sent successfully. Thak you " + fname + " for your interest. Click on HOME in Menu to return to home page")
+    let fnameElement = document.getElementById("fname").value;
+    var lnameElement = document.getElementById("lname").value;
+    var subjectElement = document.getElementById("subject").value;
+    if (fnameElement == "") {
+        document.getElementById('textMessage').textContent = "please provide your Firstname"
+    } else if (lnameElement == "") {
+        document.getElementById('textMessage').textContent = "please provide your Lastname"
+    } else if (subjectElement == "") {
+        document.getElementById('textMessage').textContent = "please enter your query"
+    } else {
 
-    );
+
+        Email.send({
+            Host: "smtp.gmail.com",
+            Username: "hireintomnc@gmail.com",
+            Password: "hireinto@123",
+            To: 'hrconnect@himsoftware.com',
+            From: "hireintomnc@gmail.com",
+            Subject: fname + " " + lname + " sent a new message from website",
+            Body: subject,
+        }).then(
+            document.getElementById('textMessage').textContent = "mail sent successfully. Thak you " + fnameElement + " for your interest. Click on HOME in Menu to return to home page", document.getElementById('contactForm').reset()
+
+        );
+    }
 
 }
