@@ -34,8 +34,8 @@ function contactButton() {
             Password: "hireinto@123",
             To: 'hrconnect@himsoftware.com',
             From: "hireintomnc@gmail.com",
-            Subject: fname + " " + lname + " sent a new message from website",
-            Body: subject,
+            Subject: fnameElement + " " + lnameElement + " sent a new message from website",
+            Body: subjectElement,
         }).then(
             document.getElementById('textMessage').textContent = "mail sent successfully. Thak you " + fnameElement + " for your interest. Click on HOME in Menu to return to home page", document.getElementById('contactForm').reset()
 
