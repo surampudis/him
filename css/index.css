@@ -135,5 +135,9 @@
 }
 
 .learnmore {
-    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
 }
