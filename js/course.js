@@ -37,7 +37,7 @@ function contactButton() {
             Subject: fnameElement + " " + lnameElement + " sent a new message from website",
             Body: subjectElement,
         }).then(
-            document.getElementById('textMessage').textContent = "mail sent successfully. Thak you " + fnameElement + " for your interest. Click on HOME in Menu to return to home page", document.getElementById('contactForm').reset()
+            document.getElementById('textMessage').textContent = "mail sent successfully. Thak you " + fnameElement + " for your interest. We will get back to you in 24 hours", document.getElementById('contactForm').reset()
 
         );
     }
