@@ -33,38 +33,40 @@
             <!--navbar-->
             <div class="col-12">
                 <!--Navbar col-->
-                <nav class="navbar navbar-expand-lg navbar-light navbar-custom ">
-                    <a class="navbar-brand" href="index.html">
-                        <img class="d-block d-lg-none navbar-image" src="img/circle-cropped (1).png" alt="" />
-                        <img class="d-none d-lg-block navbar-image-lg" src="img/circle-cropped (1).png" alt="" />
-                    </a>
-                    <div class="col-2 ml-sm-auto d-xs-block d-lg-none">
+                <nav class="navbar navbar-expand-lg navbar-light navbar-custom text-center ">
+                    <div class="d-flex flex-row ">
+                        <a class="navbar-brand" href="index.html">
+                            <img class="d-block d-lg-none w-50 navbar-image" src="img/circle-cropped (1).png" alt="" />
+                            <img class="d-none d-lg-block navbar-image-lg" src="img/circle-cropped (1).png" alt="" />
+                        </a>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal1">Broucher</button>
+                        <button type="button" class="btn btn-light  ml-auto mr-2  d-xs-block d-lg-none h-25 w-50" data-toggle="modal" data-target="#exampleModal1">Broucher</button>
+                        <button class="navbar-toggler bg-light h-25 w-25" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </div>
 
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel"></h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                            <span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <img class="w-100 h-80" src="img/broucher1.JPG">
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                                <div class="modal-body">
+                                    <img class="w-100 h-80" src="img/broucher1.JPG">
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+
+
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ml-auto">
                             <a class="nav-link text-white active" href="index.html">
@@ -101,8 +103,10 @@
                     </div>
                 </nav>
             </div>
-            <!--navbar-->
-            <!--slidshow-->
+        </div>
+        <!--navbar-->
+        <!--slidshow-->
+        <div class="row mt-1 mt-sm-0">
             <div class="col-12">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -112,24 +116,27 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img class="d-block w-100 img-fluid" src="img/sliders/1280_slider (1).jpg" alt="First slide">
+                            <img class="d-block d-md-none w-100 img-fluid" src="img/sliders/mobile/1280_slider_1_330x248.jpg" alt="First slide">
+                            <img class="d-none d-md-block w-100 img-fluid" src="img/sliders/1280_slider (1).jpg" alt="First slide">
                             <div class="carousel-caption shadow custom-caption  text-white d-block d-md-block">
-                                <h1 class="caption-heading">Welcome to HIM Software</h1>
-                                <p>One stop destination for your skill development and job search</p>
+                                <h1 class="caption-heading ">Welcome to HIM Software</h1>
+                                <p class="caption-tag">One stop destination for your skill development and job search</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100  img-fluid" src="img/sliders/slider3.jpg" alt="Second slide">
+                            <img class="d-none d-md-block w-100  img-fluid" src="img/sliders/slider3.jpg" alt="Second slide">
+                            <img class="d-block d-md-none w-100  img-fluid" src="img/sliders/mobile/slider3_1_330x248.jpg" alt="Second slide">
                             <div class="carousel-caption shadow custom-caption text-white d-block d-md-block">
                                 <h1 class="caption-heading">Become Professional</h1>
-                                <p>Upskill your skills and become professional</p>
+                                <p class="caption-tag">Upskill your skills and become professional</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100 img-fluid" src="img/sliders/1280_slider (3).jpg" alt="Third slide">
+                            <img class="d-none d-md-block w-100 img-fluid" src="img/sliders/1280_slider (3).jpg" alt="Third slide">
+                            <img class="d-block d-md-none w-100  img-fluid" src="img/sliders/mobile/1280_slider_3_330x248.jpg" alt="Third slide">
                             <div class="carousel-caption shadow custom-caption text-white d-block d-md-block">
-                                <h1 class="caption-heading"> Experience that "JUST HIRED " feeling </h1>
-                                <p>Never stop until you are proud</p>
+                                <h1 class="caption-heading"> Experience that "JUST HIRED" feeling </h1>
+                                <p class="caption-tag">Never stop until you are proud</p>
                             </div>
                         </div>
                     </div>
@@ -150,45 +157,46 @@
 
     <!--Key Features-->
     <div id="keyFeatures">
-        <div class="container-fluid container-lg">
+        <div class="container-fluid container-lg mt-4">
             <div class="row">
-                <div class="col-12 text-center pt-5 mt-5">
-                    <h1 class="caption-heading">Key Features</h1>
+
+                <div class="col-12 text-center ">
+                    <h1 class="sec-heading">Key Features</h1>
                     <p>Take a look at the services we provide as part of our world-class learning programs.</p>
                 </div>
 
-                <div class="col-6 col-md-4 text-center">
-                    <img class="feature-img" src="img/readiness.jpg">
-                    <h1 class="feature-heading">Job Readiness</h1>
-                    <p class="feature-para">The course, which was created by real-life professionals, prepares you for the job market.</p>
+                <div class="col-10 col-md-4 m-auto">
+                    <img class="feature-img" src="img/feature (1).jpg">
+                    <h1 class="feature-heading text-center">Job Readiness</h1>
+                    <p class="feature-para text-center">The course, which was created by real-life professionals, prepares you for the job market.</p>
                 </div>
-                <div class="col-6 col-md-4 text-center">
-                    <img class="feature-img" src="img/exp.jpg">
-                    <h1 class="feature-heading">Subject matter experts</h1>
-                    <p class="feature-para">Experts with domain expertise will improve your technical knowledge as well as your domain understanding.</p>
+                <div class="col-10 col-md-4 m-auto">
+                    <img class="feature-img" src="img/feature (3).jpg">
+                    <h1 class="feature-heading text-center">Subject matter experts</h1>
+                    <p class="feature-para text-center">Experts with domain expertise will improve your technical knowledge as well as your domain understanding.</p>
                 </div>
-                <div class="col-6 col-md-4 text-center">
-                    <img class="feature-img" src="img/schedule-color.jpg">
-                    <h1 class="feature-heading">Flexible scedule</h1>
-                    <p class="feature-para">If you are unable to join the first course schedule, you may attend another course schedule.</p>
+                <div class="col-10 col-md-4 m-auto">
+                    <img class="feature-img" src="img/feature (2).jpg">
+                    <h1 class="feature-heading text-center">Flexible scedule</h1>
+                    <p class="feature-para text-center">If you are unable to join the first course schedule, you may attend another course schedule.</p>
                 </div>
-
             </div>
         </div>
+
     </div>
 
     <!--Courses offered-->
 
     <div id="featuredcourses">
-        <div class="container">
-            <div class="row">
-                <div class="col col-12  text-center pt-5 mt-5">
-                    <h1 class="caption-heading">Featured Courses</h1>
+        <div class="container-fluid container-lg justify-content-center mt-4">
+            <div class="row ">
+                <div class="col-12  text-center">
+                    <h1 class="sec-heading">Featured Courses</h1>
                 </div>
 
-                <div class="col col-12 col-md-6 col-lg-4">
+                <div class="col-10 col-md-4 col-lg-4 m-auto mb-xs-5  ">
                     <a class="learnmore" href="iib.html">
-                        <div class="course-cardsholder shadow">
+                        <div class="course-cardsholder shadow justify-content-center ">
 
                             <img class="card-img" src="img/ACE_icon.png">
                             <h1 class="card-heading">IBM ACE</h1>
@@ -200,7 +208,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col col-12 col-md-6 col-lg-4">
+                <div class="col-10 col-md-4 col-lg-4 m-auto mb-xs-5  ">
                     <a class="learnmore" href="AS-400.html">
                         <div class="course-cardsholder shadow">
                             <img class="card-img" src="img/As_400.png">
@@ -212,7 +220,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col col-12 col-md-6 col-lg-4">
+                <div class="col-10 col-md-4 col-lg-4 m-auto mb-xs-5  ">
                     <a class="learnmore" href="TestAutomation.html">
                         <div class="course-cardsholder shadow">
                             <img class="card-img" src="img/automation.png">
@@ -225,7 +233,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col col-12 col-md-6 col-lg-4">
+                <div class="col-10 col-md-4 col-lg-4 m-auto mb-xs-5  ">
                     <a class="learnmore" href="guidewire.html">
                         <div class="course-cardsholder shadow">
                             <img class="card-img" src="img/guidewire.png">
@@ -237,7 +245,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col col-12 col-md-6 col-lg-4">
+                <div class="col-10 col-md-4 col-lg-4 m-auto mb-xs-5  ">
                     <a class="learnmore" href="RPA.html">
                         <div class="course-cardsholder shadow">
                             <img class="card-img" src="img/UIPATH.png">
@@ -249,7 +257,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col col-12 col-md-6 col-lg-4">
+                <div class="col-10 col-md-4 col-lg-4 m-auto mb-xs-5  ">
                     <a class="learnmore" href="crm.html">
                         <div class="course-cardsholder shadow">
                             <img class="card-img" src="img/crm.png">
@@ -296,7 +304,8 @@
         <div class="container-fluid text-center">
             <div class="row">
                 <div class="col-4 ">
-                    <h1 class="footer-section-mail-id">hrconnect@himsoftware.com</h1>
+                    <h1 class="d-block d-md-none footer-section-mail-id">Address</h1>
+                    <h1 class="d-none d-md-block footer-section-mail-id">hrconnect@himsoftware.com</h1>
                     <p class="footer-section-address">Hyderabad 500081</p>
                     <p class="footer-section-address">Texas USA 78750</p>
                 </div>
@@ -344,11 +353,11 @@
         </div>
     </div>
 
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
         $(window).on('load', function() {
             $('#exampleModal2').modal('show');
         });
-    </script>
+    </script>-->
 
 </body>
 

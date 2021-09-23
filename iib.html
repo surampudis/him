@@ -28,14 +28,18 @@
             </div>
             <div class="col-12 slideshow">
                 <!--Navbar col-->
-                <nav class="navbar navbar-expand-lg navbar-light navbar-custom ">
-                    <a class="navbar-brand" href="index.html">
-                        <img class="d-block d-lg-none navbar-image" src="img/circle-cropped (1).png" alt="" />
-                        <img class="d-none d-lg-block navbar-image-lg" src="img/circle-cropped (1).png" alt="" />
-                    </a>
-                    <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+                <nav class="navbar navbar-expand-lg navbar-light navbar-custom text-center ">
+                    <div class="d-flex flex-row ">
+                        <a class="navbar-brand" href="index.html">
+                            <img class="d-block d-lg-none w-50 navbar-image" src="img/circle-cropped (1).png" alt="" />
+                            <img class="d-none d-lg-block navbar-image-lg" src="img/circle-cropped (1).png" alt="" />
+                        </a>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-light  ml-auto mr-2  d-xs-block d-lg-none h-25 w-50" data-toggle="modal" data-target="#exampleModal1">Broucher</button>
+                        <button class="navbar-toggler bg-light h-25 w-25" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </div>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav ml-auto">
                             <a class="nav-link text-white active" href="index.html">
@@ -59,14 +63,14 @@
             <div class="col-12 ">
                 <div class="iib-bg text-white text-left p-5">
                     <h1 class="course-heading">IBM App Connect Enterprise v11</h1>
-                    <p class="course-para">As part of this course, you'll learn how to utilize IBM Integration Bus to link applications, regardless of the message formats or protocols they support.</p>
+                    <p class="course-para d-none d-md-block">As part of this course, you'll learn how to utilize IBM Integration Bus to link applications, regardless of the message formats or protocols they support.</p>
                 </div>
             </div>
 
         </div>
     </div>
     <!--Body-->
-    <div class="container">
+    <div class="container-fluid container-lg">
         <div class="row">
             <div class="col-12">
                 <h1 class="course-desc-title">Overview</h1>
@@ -199,7 +203,8 @@
         <div class="container-fluid  text-center">
             <div class="row">
                 <div class="col-4">
-                    <h1 class="footer-section-mail-id">hrconnect@himsoftware.com</h1>
+                    <h1 class="d-block d-md-none footer-section-mail-id">Address</h1>
+                    <h1 class="d-none d-md-block footer-section-mail-id">hrconnect@himsoftware.com</h1>
                     <p class="footer-section-address">Hyderabad 500081</p>
                     <p class="footer-section-address">Texas USA 78750</p>
                 </div>
