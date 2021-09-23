@@ -355,7 +355,15 @@
 
     <script type="text/javascript">
         $(window).on('load', function() {
-            $('#exampleModal2').modal('show');
+            if (document.cookie.indexOf('visited=true') == -1) {
+
+                $('#exampleModal2').modal({
+                    show: true
+                });
+                var year = 1000 * 60 * 60 * 24 * 365;
+                var expires = new Date((new Date()).valueOf() + year);
+                document.cookie = "visited=true;expires=" + expires.toUTCString();
+            }
         });
     </script>
 
