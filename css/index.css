@@ -50,6 +50,7 @@
             background-color: #FDFFFC;
             height: 50%;
             width: 50%;
+            display: block;
             margin: auto;
         }
         
@@ -175,6 +176,35 @@
             font-size: 1rem;
         }
         
+        .feature-img-container {
+            text-align: center;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .overlay {
+            position: absolute;
+            top: 35%;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: transparent;
+        }
+        
+        .feature-img-container:hover .overlay {
+            opacity: 2;
+        }
+        
+        .text {
+            color: #061A28;
+            text-align: center;
+            font-weight: bold;
+        }
+        
         @media only screen and (min-width:768px) {
             .caption-heading {
                 font-size: 28px;
@@ -186,6 +216,12 @@
                 font-size: 18px;
             }
             .feature-img {
+                height: 100%;
+                width: 100%;
+                display: block;
+            }
+            .feature-img-container {
+                text-align: center;
                 height: 50%;
                 width: 50%;
             }
